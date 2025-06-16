@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar animate">
+    <div class="navbar-container">
+      <div class="logo">MyPortfolio</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#projects">Projects</a>
+        <a href="#extracurricular">Extracuricular</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+<section class="hero animate">
+  <div class="hero-image animate">
+    <img src="logos/image.png" alt="Supravat's Photo" />
+  </div>
+  <div class="hero-content">
+    <h1>Hello, I'm Supravat</h1>
+    <div class="typewriter-wrapper">
+    <span class="static-text">I am</span>
+    <span class="typewriter-text"></span>
+  </div>
+
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/supravatpaul2021" target="_blank" class="social-link linkedin">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Supravat2021" target="_blank" class="social-link github">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/supravat.paul.237581" target="_blank" class="social-link facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/iamsupravat_2023" target="_blank" class="social-link instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+    </div>
+    <a href="projects/Supravat Paul.pdf" download class="resume-btn animate">
+        Resume
+      </a>
+  </div>
+  
+
+</section>
+
+<!--About-->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Supravat Paul, a passionate Computer Science student driven by curiosity, creativity, and a love for learning. I enjoy exploring how technology can solve real-world problems while keeping space for imagination and expression.
+
+In my academics, I'm mostly interested in cybersecurity, technical innovations, and web development — fields where I can blend logical thinking with creative execution. I'm always eager to dive deep into emerging tech and build solutions that make an impact.
+
+Beyond academics, I find joy in photography cycling, and researching spiritualism and ancient wisdom. I believe in living a balanced life — one that’s rooted in continuous learning, meaningful creation, and self-discovery.
+
+
+      </p>
+    </div>
+
+    <div class="about-slideshow">
+      <img src="assets/about1.jpg" alt="Slide 1" class="slide active">
+      <img src="assets/about2.jpg" alt="Slide 2" class="slide">
+      <img src="assets/about3.jpg" alt="Slide 3" class="slide">
+    </div>
+  </div>
+</section>
+
+<!--Skils Section-->
+<section id="skills" class="skills-section">
+  <h2 class="skills-heading">Skills</h2>
+
+  <div class="skills-container">
+    
+    <!-- Skill Row -->
+    <div class="skill-row">
+      <div class="skill-label">Core Programming</div>
+      <div class="skill-branch">
+        <div class="skill-box"><img src="logos/c.png" alt="C" /></div>
+        <div class="skill-box"><img src="logos/cpp.png" alt="C++" /></div>
+      </div>
+    </div>
+
+    <div class="skill-row">
+      <div class="skill-label">Frontend</div>
+      <div class="skill-branch">
+        <div class="skill-box"><img src="logos/html.png" alt="HTML" /></div>
+        <div class="skill-box"><img src="logos/css.png" alt="CSS" /></div>
+      </div>
+    </div>
+
+    <div class="skill-row">
+      <div class="skill-label">Backend</div>
+      <div class="skill-branch">
+        <div class="skill-box"><img src="logos/python.png" alt="Python" /></div>
+      </div>
+    </div>
+    <div class="skill-row">
+      <div class="skill-label">Database</div>
+      <div class="skill-branch">
+        <div class="skill-box"><img src="logos/sql.png" alt="SQL" /></div>
+      </div>
+    </div>
+
+    <div class="skill-row">
+      <div class="skill-label">Others</div>
+      <div class="skill-branch">
+        <div class="skill-box"><img src="logos/kali.png" alt="Kali Linux" /></div>
+        <div class="skill-box"><img src="logos/windows.png" alt="Windows" /></div>
+        <div class="skill-box"><img src="logos/vs.png" alt="VS Code" /></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--Hobbies Section-->
+<section id="hobbies" class="hobbies-section">
+  <div class="hobbies-content">
+    <div class="hobbies-left">
+      <h2>My Hobbies</h2>
+      <p>I love engaging in creative, techy, and soulful hobbies that energize me beyond work.</p>
+    </div>
+
+    <div class="hobbies-right">
+      <div class="hobby-box">📷 Photography</div>
+      <div class="hobby-box">🚴 Cycling</div>
+      <div class="hobby-box">📖 Reading</div>
+      <div class="hobby-box">💻 Tech Experiments</div>
+    </div>
+  </div>
+</section>
+
+<!--Project Section-->
+<section id="projects" class="projects-section full-page-section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">Here are some of my featured works built with passion and precision.</p>
+
+    <div class="project-carousel-wrapper">
+      <button class="scroll-btn left" onclick="scrollProjects(-1)">&#10094;</button>
+
+      <div id="projectCarousel" class="project-carousel">
+
+        <div class="project-card">
+          <img src="projects/project1.png" alt="Portfolio Website">
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>This responsive portfolio site, smooth animations and project showcase.</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="scroll-btn right" onclick="scrollProjects(1)">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Extracurricular-->
+<section id="extracurricular" class="ladder-section">
+  <h2>Extracurricular Activities</h2>
+  <div class="ladder-container">
+    <div class="ladder-step left">GDG Extended Team Member</div>
+    <div class="ladder-step right">Member Treasurer of the Coder's Club</div>
+    <div class="ladder-step left">EDC Member</div>
+    <div class="ladder-step right">Secretary of The Culture Code</div>
+    <div class="ladder-step left">Content Curator for Magazine & Newsletter</div>
+  </div>
+</section>
+
+<!--Certificate section-->
+<section id="certificates" class="certificate-heading">
+  <h2>My Certificates</h2>
+  
+  <div class="certificate-carousel-wrapper">
+    <button class="carousel-btn left" onclick="scrollCertificates(-1)">❮</button>
+
+    <div class="certificate-carousel" id="certificateCarousel">
+      <img src="certificates/pic1.jpg" alt="Certificate 1" class="certificate-img" />
+      <img src="certificates/pic2.jpg" alt="Certificate 2" class="certificate-img" />
+      <img src="certificates/pic3.jpeg" alt="Certificate 3" class="certificate-img" />
+      <img src="certificates/pic4.jpeg" alt="Certificate 4" class="certificate-img" />
+      <img src="certificates/pic5.jpeg" alt="Certificate 5" class="certificate-img" />
+      <img src="certificates/pic6.jpeg" alt="Certificate 3" class="certificate-img" />
+      <img src="certificates/pic7.jpeg" alt="Certificate 4" class="certificate-img" />
+      <img src="certificates/pic8.jpeg" alt="Certificate 5" class="certificate-img" />
+      <img src="certificates/pic9.jpeg" alt="Certificate 3" class="certificate-img" />
+      <img src="certificates/pic10.jpeg" alt="Certificate 4" class="certificate-img" />
+    </div>
+
+    <button class="carousel-btn right" onclick="scrollCertificates(1)">❯</button>
+  </div>
+</section>
+
+
+  <!--Contact Me-->
+  <section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out — I’d love to connect!</p>
+
+    <div class="contact-buttons">
+      <a href="https://wa.me/917439928855?text=Hi%2C%20I%20saw%20your%20portfolio%21" target="_blank" class="contact-btn whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=supravatpaul2021@gmail.com&su=Hi%20Supravat!&body=Hi%20Supravat%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect." 
+       target="_blank" 
+       class="contact-btn gmail">
+      <i class="fas fa-envelope"></i> Mail Me
+      </a>
+
+
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
