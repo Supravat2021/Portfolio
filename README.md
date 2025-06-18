@@ -50,6 +50,3 @@ I’m Supravat Paul, passionate about building clean and functional user interfa
 * 🧠 Add a blog or thoughts section
 * 
 ---
-
-### 🔥 Built with love, caffeine, and a bit of cosmic curiosity 🚀
----
