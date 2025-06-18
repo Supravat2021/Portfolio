@@ -1,8 +1,3 @@
-Here’s a professional and eye-catching `README.md` you can use for your **Portfolio Website GitHub repository**:
-
----
-
-````markdown
 # 🌐 Supravat Paul's Developer Portfolio
 
 Welcome to my **personal portfolio website** – a digital space where I showcase my projects, skills, and experiences as a **Web Developer**, **Creative Coder**, and **Open Source Contributor**.
