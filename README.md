@@ -4,7 +4,7 @@ Welcome to my **personal portfolio website** – a digital space where I showcas
 
 ![Portfolio Preview](https://i.postimg.cc/HsGTJrFk/project1.png)
 
-**Wesbite Link:-**https://supravat2021.github.io/Portfolio/
+**Wesbite Link:-https://supravat2021.github.io/Portfolio/**
 
 ## 🚀 Features
 
