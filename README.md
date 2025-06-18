@@ -2,7 +2,7 @@
 
 Welcome to my **personal portfolio website** – a digital space where I showcase my projects, skills, and experiences as a **Web Developer**, **Creative Coder**, and **Open Source Contributor**.
 
-![Portfolio Preview](https://your-portfolio-screenshot-link.com) <!-- Optional: Add a preview screenshot -->
+![Portfolio Preview](https://postimg.cc/QVq2wdX2) 
 
 ## 🚀 Features
 
@@ -23,7 +23,7 @@ Welcome to my **personal portfolio website** – a digital space where I showcas
 ├── certificates/
 ├── logos/
 ├── projects/  
-|   └── Supravat Paul.pdf
+│   └── Supravat Paul.pdf
 ````
 
 ## 📸 Technologies Used
