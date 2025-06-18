@@ -2,7 +2,9 @@
 
 Welcome to my **personal portfolio website** – a digital space where I showcase my projects, skills, and experiences as a **Web Developer**, **Creative Coder**, and **Open Source Contributor**.
 
-![Portfolio Preview](https://postimg.cc/QVq2wdX2) 
+![Portfolio Preview](https://i.postimg.cc/HsGTJrFk/project1.png)
+
+**Wesbite Link:-**https://supravat2021.github.io/Portfolio/
 
 ## 🚀 Features
 
